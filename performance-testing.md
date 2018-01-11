@@ -1,30 +1,31 @@
 ---
 layout: lesson
-title: "Accessibility testing"
-desc: "Spend most of the class testing your website using different accessibility tools—and fixing any problems that arise."
+title: "Performance testing"
+desc: "Spend most of the class testing your website using different performance tools—and fixing any problems that arise."
 
 hide_show_for_marks: true
 hide_markbot: true
 
 extra_tutorials:
-  - title: "Accessibility"
-    url: accessibility
-  - title: "Accessibility checklist"
-    url: accessibility-checklist
+  - title: "Performance"
+    url: performance
+  - title: "Performance checklist"
+    url: performance-checklist
     highlight: true
-  - title: "Accessibility testing checklist"
-    url: accessibility-testing-checklist
+  - title: "Advanced performance"
+    url: advanced-performance
+  - title: "Advanced performance checklist"
+    url: advanced-performance-checklist
     highlight: true
-  - title: "Validators"
-    url: validators
   - title: "GitHub Issues"
     url: github-issues
 
 goal:
   before: |
-    Make your website work well for all users—and remember *it doesn’t need to work exactly the same for every human being.*
+    Make your website be fast for all users and all internet connection speeds—*remember faster is better, less is more.*
 
-    ### [Refer to the accessibility testing checklist ➔](/topics/accessibility-testing-checklist/)
+    ### [Performance testing checklist ➔](/topics/performance-testing-checklist/)
+    ### [Advanced performance testing checklist ➔](/topics/advanced-performance-testing-checklist/)
   no_image: true
   notes:
     - label: "Collaboration"
@@ -38,11 +39,11 @@ steps:
 
       **[Video on enabling Issues on GitHub repos ➔](https://www.youtube.com/watch?v=vTULg-7xycs)**
 
-  - title: "Determine the accessibility scenarios"
+  - title: "Determine the performance budget"
     before: |
-      Referring to the [accessibility testing checklist](/topics/accessibility-testing-checklist/), we’ll figure out which tools and tests need to be run.
+      Referring to the [performance testing checklist](/topics/performance-testing-checklist/), we’ll figure out our baseline performance budget what tests to run.
 
-      *Different people will be assigned different accessibility testing tools to cover as much as possible.*
+      *Different people will be assigned different performance tests to cover as much as possible.*
 
   - title: "Write down the URL to your website"
     before: |
@@ -57,9 +58,9 @@ steps:
 
   - title: "Test everybody’s website"
     before: |
-      With everybody working together your website will be accessibility tested in lots of different situations.
+      With everybody working together your website will be performance tested in lots of different situations.
 
-      **You’ll be assigned a specific accessibility test—it will be your job to test everybody’s website using the tool you’re assigned.**
+      **You’ll be assigned a specific performance test—it will be your job to test everybody’s website using the tool you’re assigned.**
 
       *Some tools are a lot of work to test. In those cases the same tool will be distributed to multiple students and the class list will be broken into smaller chunks.*
 

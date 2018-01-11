@@ -19,7 +19,7 @@ goal:
 
     *After fixing all the bugs in your website you’ll be taking screenshots of the final website and posting them to an Issue on GitHub.*
 
-    ### [Refer to the browser testing checklist →](/topics/browser-testing-checklist/)
+    ### [Refer to the browser testing checklist ➔](/topics/browser-testing-checklist/)
   no_image: true
   notes:
     - label: "Collaboration"

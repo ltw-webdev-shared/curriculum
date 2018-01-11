@@ -20,7 +20,7 @@ goal:
   before: |
     Make your website work well in all the browsers—remember it [doesn’t have to look exactly the same](http://dowebsitesneedtolookexactlythesameineverybrowser.com/), but it should be functional.
 
-    ### [Refer to the browser testing checklist →](/topics/browser-testing-checklist/)
+    ### [Refer to the browser testing checklist ➔](/topics/browser-testing-checklist/)
   no_image: true
   notes:
     - label: "Collaboration"
@@ -30,6 +30,12 @@ goal:
         **We’ll work together to find out who has what device and with whom you can get your website tested.**
 
 steps:
+  - title: "Enable Issues on your repo"
+    before: |
+      Before we start anything, everybody needs to go to **their own** repository on [GitHub.com](https://github.com) and enable their Issues tab.
+
+      **[Video on enabling Issues on GitHub repos ➔](https://www.youtube.com/watch?v=vTULg-7xycs)**
+
   - title: "Determine the available devices"
     before: |
       Referring to the [browser testing checklist](/topics/browser-testing-checklist/), we’ll figure out what devices—and versions—need to be tested.
@@ -55,11 +61,9 @@ steps:
 
   - title: "Submitting Issues"
     before: |
-      If you find problems with the website you’re testing create an Issue on GitHub *in their repository.*
+      If you find problems with the website you’re testing, create an Issue on GitHub *in their repository.*
 
-      **Make sure “Issues” are enabled on your repository—so other people can add issues for your website.**
-
-      **If the Issues tab is missing go to “Settings” and turn them on.**
+      **[Tutorials on using GitHub Issues ➔](Video on enabling Issues on GitHub repos)**
 
       ---
 
@@ -87,7 +91,7 @@ steps:
 
   - title: "Fix problems"
     before: |
-      If there are any problems with your website in a specific browser—fix them.
+      If there are any problems with your website in a specific browser—fix them!
 
       **It’s up to you to make your website work well in all tested browsers—we’re developing websites for the World Wide Web (not the Wealthy Western Web).**
     notes:
