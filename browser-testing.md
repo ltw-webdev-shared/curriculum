@@ -69,7 +69,7 @@ steps:
 
       ### Website URL to repo conversion
 
-      ![](gh-pages-to-repo.svg)
+      ![](/courses/shared/gh-pages-to-repo.svg)
 
       1. Cut the username.
       2. Remove the starting dot.
