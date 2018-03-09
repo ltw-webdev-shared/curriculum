@@ -1,0 +1,97 @@
+---
+layout: basic-inside
+title: "Team reflection"
+desc: "Reflect on how well you did—and how well your teammates did—well completing the semester’s team project."
+priority: 0.1
+hide_markbot: true
+hide_algonquin: true
+permalink: "/courses/shared/team-reflection/index.html"
+---
+
+<div class="wrapper pad-t pad-b gutter-1-2">
+  <div class="max-length not-centered">
+    <p class="giga"><strong>The feedback is (mostly) anonymous.<sup><a href="#anonymous">1</a></sup></strong> Be honest, critical & helpful.</p>
+    <p>The reflection you submit will be used for final grading for you and your teammates. You will need to submit a suggested grade for yourself—and your teammates; this grade will be averaged out to create a final, individual, “Teamwork” grade for you and the other students who were part of your team.</p>
+    <p class="mega"><em>This feedback will be passed on to your teammates—anonymously.</em></p>
+  </div>
+
+  <hr>
+
+  <form class="max-length not-centered push-2" action="https://formspree.io/thomas.bradley+ltw-team-reflection@algonquindesign.ca" method="post">
+
+    <div class="push-2">
+      <label class="bold" for="course">Course</label>
+      <select name="course" id="course" required>
+        <option value=""></option>
+        <optgroup label="Core courses">
+          {% for collection_id in site.collections_courses %}
+            {% assign collection = site.collections | where: "label", collection_id | first %}
+            <option value="{{collection_id}}">{{collection.title}}</option>
+          {% endfor %}
+        </optgroup>
+        <optgroup label="Self-directed courses">
+          {% for collection_id in site.collections_selfdirected %}
+            {% assign collection = site.collections | where: "label", collection_id | first %}
+            <option value="{{collection_id}}">{{collection.title}}</option>
+          {% endfor %}
+        </optgroup>
+        <optgroup label="Workshops">
+          {% for collection_id in site.collections_workshops %}
+            {% assign collection = site.collections | where: "label", collection_id | first %}
+            <option value="{{collection_id}}">{{collection.title}}</option>
+          {% endfor %}
+        </optgroup>
+      </select>
+    </div>
+
+    <hr>
+
+    {% include team-reflection-feedback-group.html
+        id="personal"
+        required="true"
+        title_noun="Personal"
+        name_noun="Your"
+        intro="First, reflect on your own contributions to the team project and how hard you worked. Honesty is expected."
+        grade_noun="yourself"
+        reflection_noun="you"
+    %}
+
+    <hr>
+
+    {% for i in (1..4) %}
+      {% capture id %}teammate-{{i}}{% endcapture %}
+      {% capture required %}{% if forloop.first %}true{% else %}false{% endif %}{% endcapture %}
+      {% capture noun %}Teammate {{i}}{% endcapture %}
+      {% capture possessive_noun %}{{noun}}’s{% endcapture %}
+      {% capture intro %}Reflect on {{possessive_noun}} contributions to the team project and how hard they worked. Honesty is expected.{% endcapture %}
+
+      {% include team-reflection-feedback-group.html
+          id=id
+          required=required
+          title_noun=possessive_noun
+          name_noun=possessive_noun
+          intro=intro
+          grade_noun=noun
+          reflection_noun="they"
+      %}
+      <hr>
+    {% endfor %}
+
+    <input type="hidden" name="_subject" value="Team Reflection — Learn the Web">
+    <input type="hidden" name="_format" value="plain">
+    <input type="hidden" name="_next" value="https://learn-the-web.algonquindesign.ca/courses/shared/team-reflection/thanks/">
+    <button class="btn" type="submit">Send feedback</button>
+  </form>
+
+  <hr>
+
+  <div class="max-length not-centered">
+    <small id="anonymous">
+      <h2 class="kilo push-0">1 — Notes on anonymity</h2>
+      <ul class="push-0">
+        <li>The teacher will know who wrote & submitted the feedback.</li>
+        <li>When the feedback is passed on to your teammates it will be anonymized.</li>
+      </ul>
+    </small>
+  </div>
+</div>
