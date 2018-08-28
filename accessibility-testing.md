@@ -9,6 +9,9 @@ hide_markbot: true
 extra_tutorials:
   - title: "Accessibility"
     url: accessibility
+  - title: "Accessibility cheat sheet"
+    url: accessibility-cheat-sheet
+    highlight: true
   - title: "Accessibility checklist"
     url: accessibility-checklist
     highlight: true
