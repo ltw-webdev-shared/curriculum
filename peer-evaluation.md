@@ -88,6 +88,8 @@ steps:
     before: |
       In the same Issue, or in a comment, copy and paste the below rubric and assign grades for the project you just reviewed.
 
+      **If your assignment has a more specific rubric in the assignment requirements—use that rubric instead of the one below.**
+
       *The code will turn into a data table on GitHub when it’s previewed or saved.*
     code_can_copy: true
     code_lang: markdown
