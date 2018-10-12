@@ -19,6 +19,13 @@ goal:
       text: |
         This is constructive. Be polite & helpful. And honest.
 
+important:
+  title: "Rubrics & feedback"
+  text: |
+    Use the most appropriate rubric you can find—there is a general rubric below if the assignment you are evaluating doesn’t contain a more specific rubric.
+
+    Write helpful & valuable feedback—the rubric is a guide for what you’re looking for but it is not the final outcome. The written, helpful, improvement-generating feedback is what’s important.
+
 steps:
   - title: "Enable Issues on your repo"
     person:
@@ -46,6 +53,8 @@ steps:
       label: "Peer"
     before: |
       As a peer evaluator, it’s your job to help the other person succeed. You want to give honest, valuable feedback that will enhance and improve the other person’s project.
+
+      *Write valuable written feedback & helpful criticism to help your peer improve their project.*
 
       ### Some things to consider:
     tasks:
@@ -81,12 +90,12 @@ steps:
       3. Change `io` to `com`
       4. Paste the username before the repository name
 
-  - title: "Fill out the basic rubric"
+  - title: "Fill out the rubric"
     person:
       icon: "person-2"
       label: "Peer"
     before: |
-      In the same Issue, or in a comment, copy and paste the below rubric and assign grades for the project you just reviewed.
+      In the same Issue, or in a comment, copy and paste the rubric and assign grades for the project you just reviewed.
 
       **If your assignment has a more specific rubric in the assignment requirements—use that rubric instead of the one below.**
 
@@ -104,7 +113,9 @@ steps:
     after: |
       *Sum the rubric and put that value at the bottom.*
 
-      **Confirm that you think this is an appropriate grade for the project you just reviewed.**
+      *Confirm that you think this is an appropriate grade for the project you just reviewed.*
+
+      **Write valuable written feedback & helpful criticism to help your peer improve their project. The rubric doesn’t help your peer improve, it’s only a mechanism to guide what you’re looking for. The written feedback is what’s important.**
 
   - title: "Read the feedback"
     person:
