@@ -24,8 +24,8 @@ goal:
   before: |
     Make your website be fast for all users and all internet connection speeds—*remember faster is better, less is more.*
 
-    ### [Performance testing checklist ➔](/topics/performance-testing-checklist/)
-    ### [Advanced performance testing checklist ➔](/topics/advanced-performance-testing-checklist/)
+    ### [Performance testing checklist ➔](/topics/performance-checklist/)
+    ### [Advanced performance testing checklist ➔](/topics/advanced-performance-checklist/)
   no_image: true
   notes:
     - label: "Collaboration"
@@ -41,7 +41,7 @@ steps:
 
   - title: "Determine the performance budget"
     before: |
-      Referring to the [performance testing checklist](/topics/performance-testing-checklist/), we’ll figure out our baseline performance budget what tests to run.
+      Referring to the [performance testing checklist](/topics/performance-checklist/), we’ll figure out our baseline performance budget what tests to run.
 
       *Different people will be assigned different performance tests to cover as much as possible.*
 
