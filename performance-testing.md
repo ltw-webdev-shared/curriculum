@@ -68,7 +68,7 @@ steps:
     before: |
       If you find problems with the website you’re testing, create an Issue on GitHub *in their repository.*
 
-      **[Tutorials on using GitHub Issues ➔](Video on enabling Issues on GitHub repos)**
+      **[Tutorials on using GitHub Issues ➔](/topics/github-issues/)**
 
       ---
 
