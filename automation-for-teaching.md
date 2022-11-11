@@ -32,7 +32,7 @@ slides:
   - content: |
       ## Learn the Web
 
-      [**Learn the Web online resources ➔**](https://learn-the-web.algonquindesign.ca/)
+      [**Learn the Web online resources ➔**](https://learntheweb.courses/)
 
   - content: |
       ## Sticky note triage
@@ -42,5 +42,5 @@ slides:
       ![](sticky-notes.svg)
 
   - type: video
-    video: https://assets.learn-the-web.algonquindesign.ca/shared/automation-for-teaching/markbot-demo.mp4
+    video: https://assets.learntheweb.courses/shared/automation-for-teaching/markbot-demo.mp4
 ---
