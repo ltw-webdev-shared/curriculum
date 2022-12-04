@@ -42,5 +42,5 @@ slides:
       ![](sticky-notes.svg)
 
   - type: video
-    video: "https://videos.learntheweb.courses/playlists/automation-for-teaching/1-markbot-demo.mp4"
+    video: "https://video-assets.learntheweb.courses/automation-for-teaching/1-markbot-demo.mp4"
 ---
